@@ -50,7 +50,7 @@ namespace BSDB
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.InitialDirectory = "c:\\Program Files (x86)\\Papayaplay ";
+                openFileDialog.InitialDirectory = "c:\\Program Files (x86)\\Papayaplay\\BlackShot\\Data\\";
                 openFileDialog.FileName = "bsdb";
                 openFileDialog.Filter = "Zip Archive (*.zip)|*.zip|All files (*.*)|*.*";
                 openFileDialog.FilterIndex = 2;
