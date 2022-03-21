@@ -31,6 +31,7 @@ namespace BSDB
                 }catch(Exception ex)
                 {
                     MessageBox.Show(ex.Message, "BSDB Tool", MessageBoxButtons.OK);
+                    return false;
                 }
                 
                 if(_decrypted)
@@ -50,7 +51,7 @@ namespace BSDB
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.InitialDirectory = "c:\\Program Files (x86)\\Papayaplay\\BlackShot\\Data\\";
+                openFileDialog.InitialDirectory = "C:\\Program Files (x86)\\Papaya Play\\BlackShot\\Data\\";
                 openFileDialog.FileName = "bsdb";
                 openFileDialog.Filter = "Zip Archive (*.zip)|*.zip|All files (*.*)|*.*";
                 openFileDialog.FilterIndex = 2;
