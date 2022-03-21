@@ -2,13 +2,12 @@ namespace BSDB
 {
     public partial class Form1 : Form
     {
-        private bool _loaded { get; set; }
+        private bool _loaded => false;
         private bool _decrypted { get; set; }
         private byte[] _buffer { get; set; }
         public Form1()
         {
             InitializeComponent();
-            _loaded = false;
         }
         private bool EncryptDecrypt(string path)
         {
