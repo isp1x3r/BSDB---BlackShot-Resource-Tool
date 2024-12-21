@@ -1,5 +1,5 @@
 # Mercenary - BSDB Tool
-GUI Tool to encrypt/decrypt BSDB file system, Mod Weapon Skins/animations, Edit Body Nifs and more.. Made for Vertigo Games's BlackShot. Last updated 12/21/2024
+GUI Tool to encrypt/decrypt BSDB file system, Mod Weapon Skins/animations, Edit Body Nifs and more.. Made for Vertigo Games's BlackShot. Last updated Dec 2024
 
 ![image](https://github.com/user-attachments/assets/9a95fae1-ce1a-457c-9e05-bd6038bc6dbb)
 
